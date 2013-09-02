@@ -3,6 +3,7 @@ Bosses:
     Type: zombiebaby
     Health: 1200
     Showhp: true
+    ShowTitle: True
     Damage: 15
     Skills:
     - bossmsg 20:&4$boss_&2Я_вас_уничтожу!! =1200 1
@@ -148,7 +149,7 @@ Bosses:
     Health: 500
     Showhp: true
     Damage: 3
-    Showtitle: true
+    ShowTitle: True
     Skin: Wraith
     Skills:
     - potionboss FIRE_RESISTANCE:10000:1 >0 1
@@ -165,11 +166,11 @@ Bosses:
   Grower:
     Type: zombiebaby
     Health: 100
-    Damage: 8
+    Damage: 12
     Skills:
     - swarm $GrowUP2:1 =0 1
-    - potionboss SPEED:10000:3 /100-1 1
-    - throw 20:1.4 >0 0.3
+    - potionboss SPEED:10000:5 /100-1 1
+    - throw 20:3 >0 0.3
     - lightning 10:3 >0 0.04
     - teleport teleport >0 0.2
     Drops:
@@ -180,15 +181,15 @@ Bosses:
   GrowUP2:
     Type: zombie
     Health: 200
-    Damage: 10
+    Damage: 14
     Skills:
     - swarm $GrowUP3:1 =0 1
-    - potionboss SPEED:10000:4 /200-1 1
+    - potionboss SPEED:10000:5 /200-1 1
     - potion 15:SLOW:30:10 =200 1
     - potion 15:WEAKNESS:10:2 =200 1
     - potion 15:BLINDNESS:10:1 =200 1
     - bossmsg 20:&4Я_вырос_я_стал_сильнее_!!! =200 1
-    - throw 20:1.8 >0 0.5
+    - throw 20:3 >0 0.5
     - lightning 10:3 >0 0.04
     - teleport teleport >0 0.4
     Drops:
@@ -199,15 +200,15 @@ Bosses:
   GrowUP3:
     Type: zombievillager
     Health: 400
-    Damage: 14
+    Damage: 16
     Skills:
-    - potionboss SPEED:10000:6 /400-1 1
+    - potionboss SPEED:10000:8 /400-1 1
     - potion 15:SLOW:30:10 =400 1
     - potion 15:WEAKNESS:20:2 =400 1
     - potion 15:BLINDNESS:20:1 =400 1
     - bossmsg 20:&4Я_постарел_!!! =400 1
     - bossmsg 25:&3$player_killed_$boss =0 1
-    - throw 20:2 >0 0.7
+    - throw 20:3 >0 0.7
     - lightning 10:3 >0 0.04
     - teleport teleport >0 0.8
     Drops:
@@ -230,7 +231,7 @@ Bosses:
     - swarm cavespider:20 =0 1
     - swarm spider:30 =0 1
     - swarm sekeleton:30 =0 1
-    - swarm bat|blaze:15 =0 1
+    - swarm blaze:15 =0 1
   Metamob3:
     Type: zombie
     Health: 0
@@ -245,11 +246,12 @@ Bosses:
     Skills:
     - swarm pigzombie:20 =0 1
     - swarm cavespider:20 =0 1
-    - swarm bat|witch:15 =0 1
+    - swarm witch:15 =0 1
   Prizrak:
     Type: zombie
     Health: 500
     Showhp: false
+    ShowTitle: True
     Skills:
     - potionboss FIRE_RESISTANCE:10000:1 /500-1 1
     - teleport teleport /500-201 0.5

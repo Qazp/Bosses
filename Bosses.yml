@@ -216,7 +216,7 @@ Bosses:
     - 299:0:1:3 0 PROTECTION_ENVIRONMENTAL:3
     - 300:0:1:2 0 PROTECTION_ENVIRONMENTAL:3
     - 301:0:1:1 0 PROTECTION_ENVIRONMENTAL:3
-  Брат_Азерон:
+  AzeronBrother:
     Type: zombievillager
     Health: 800
     Showhp: true
@@ -232,11 +232,11 @@ Bosses:
     - throw 20:20 =300 1
     - lightning 20:10 =300 1
     - dragin 20 = 250 1
-    - swarm $Брат_Михаэль:1 =300 1
-    - swarm $Брат_Сартанис:1 =300 1
+    - swarm $MichaelBrother:1 =300 1
+    - swarm $SartanisBrother:1 =300 1
     - potion 20:POISON:10:10 =100 1
     - throw 20:5 =50 1
-    - bossmsg 20:&4$boss_&3Братья,_я_не_удержал_трон! =1 1
+    - bossmsg 20:&4$boss_&3Братья_я_не_удержал_трон! =1 1
     - bossmsg 25:&3$player_killed_$boss =0 1
     Drops:
     - 302:0:1:4 0 PROTECTION_ENVIRONMENTAL:3
@@ -244,7 +244,7 @@ Bosses:
     - 304:0:1:2 0 PROTECTION_ENVIRONMENTAL:3
     - 305:0:1:1 0 PROTECTION_ENVIRONMENTAL:3
     - 276:0:1:0 0 DAMAGE_ALL:5,FIRE_ASPECT:4
-  Брат_Михаэль:
+  MichaelBrother:
     Type: skeleton
     Health: 300
     Showhp: true
@@ -263,7 +263,7 @@ Bosses:
     - 304:0:1:2 0 PROTECTION_ENVIRONMENTAL:3
     - 305:0:1:1 0 PROTECTION_ENVIRONMENTAL:3
     - 261:0:1:0 0 ARROW_DAMAGE:10,ARROW_KNOCKBACK:3,ARROW_FIRE:3
-  Брат_Сартанис:
+  SartanisBrother:
     Type: zombie
     Health: 600
     Showhp: true
@@ -282,3 +282,11 @@ Bosses:
     - 304:0:1:2 0 PROTECTION_ENVIRONMENTAL:3
     - 305:0:1:1 0 PROTECTION_ENVIRONMENTAL:3
     - 276:0:1:0 0 DAMAGE_ALL:5,FIRE_ASPECT:4
+  Metamob1:
+    Type: zombie
+    Health: 0
+    Skills:
+    - swarm cavespider:20 =0 1
+    - swarm zombie:20 =0 1
+    - swarm pigzombie:10 =0 1
+

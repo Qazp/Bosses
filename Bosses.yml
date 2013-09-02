@@ -1,0 +1,294 @@
+Bosses:
+  Ricky:
+    Type: zombiebaby
+    Health: 1200
+    Showhp: true
+    Damage: 15
+    Skills:
+    - bossmsg 20:&4$boss_&2Я_вас_уничтожу!! =1200 1
+    - teleport teleport <400 0.1
+    - potionboss SPEED:10000:3 >100 1
+    - potion 50:SLOW:30:10 <300 0.1
+    - potionboss FIRE_RESISTANCE:10000:1 /1200-1 1
+    - swarm $IllusionRicky:5 =1000 1
+    - swarm $IllusionRicky:10 =600 1
+    - swarm $IllusionRicky:15 =300 1
+    - bossmsg 20:&4$boss_&2Найдите_меня_глупые_людишки =300 1
+    - bossmsg 25:&3$player_killed_$boss =0 1
+    Drops:
+    - 299:0:1:3 0 PROTECTION_ENVIRONMENTAL:4,THORNS:10
+    - 300:0:1:2 0 PROTECTION_ENVIRONMENTAL:4,THORNS:10
+    - 301:0:1:1 0 PROTECTION_ENVIRONMENTAL:4,THORNS:10
+    - 298:0:1:4 0 PROTECTION_ENVIRONMENTAL:4,THORNS:10
+    - 298:0:1:4 0.5 PROTECTION_ENVIRONMENTAL:4 $&4Mask_of_the_Tahlin_Watch
+    - 299:0:1:3 0.5 PROTECTION_ENVIRONMENTAL:4 $&4Sigil_of_the_Tahlin_Watch
+    - 300:0:1:2 0.5 PROTECTION_ENVIRONMENTAL:4 $&4Wraps_of_the_Subtle_Demon
+    - 301:0:1:1 0.5 PROTECTION_ENVIRONMENTAL:4 $&4Whip_of_the_Subtle_Demon
+    - 276:0:1 0.1 DAMAGE_ALL:5 $&9Sange
+    - 276:0:1 0.1 DAMAGE_ALL:5 $&9Yasha
+    - exp 1000
+  IllusionRicky:
+    Type: zombiebaby
+    Health: 150
+    Showhp: true
+    Damage: 2
+    Skills:
+    - potionboss SPEED:10000:3 /150-1 1
+    - potionboss FIRE_RESISTANCE:10000:1 /150-1 1
+    Drops:
+    - 298:0:1:4 0 PROTECTION_ENVIRONMENTAL:2
+    - 299:0:1:3 0 PROTECTION_ENVIRONMENTAL:2
+    - 300:0:1:2 0 PROTECTION_ENVIRONMENTAL:2
+    - 301:0:1:1 0 PROTECTION_ENVIRONMENTAL:2
+  Paymaster:
+    Type: skeleton
+    Health: 1500
+    Showhp: true
+    Damage: 20
+    Skills:
+    - bossmsg 20:&4$boss_&3Я_не_отдам_свои_деньги! =1000 1
+    - swarm $Gnoll:5 =1200 1
+    - potionboss SPEED:10000:3 /1500-1 1
+    - potionboss FIRE_RESISTANCE:10000:1 /1500-1 1
+    - fire 10:5 =1200 1
+    - potion 15:SLOW:30:10 =1000 1
+    - potion 15:WEAKNESS:10:2 =1000 1
+    - swarm $Gnoll:5 =800 1
+    - bossmsg 20:Казначей_начинает_кастовать_взрыв =600 1
+    - lightning 7:40 =550 1
+    - throw 10:5 =350 1
+    - throw 10:5 =300 1
+    - dragin 20 =250 1
+    - dragin 20 =200 1
+    - bossmsg 20:Казначей_начинает_кастовать_финальный_взрыв 150 1
+    - lightning 7:40 =100 1
+    Drops:
+    - 302:0:1:4 0 PROTECTION_ENVIRONMENTAL:3
+    - 303:0:1:3 0 PROTECTION_ENVIRONMENTAL:3
+    - 304:0:1:2 0 PROTECTION_ENVIRONMENTAL:3
+    - 305:0:1:1 0 PROTECTION_ENVIRONMENTAL:3
+    - exp 1000
+    - 310:0:1 1 PROTECTION_ENVIRONMENTAL:3,DURABILITY:3
+    - 311:0:1 1 PROTECTION_ENVIRONMENTAL:3,DURABILITY:3
+    - 312:0:1 1 PROTECTION_ENVIRONMENTAL:3,DURABILITY:3
+    - 313:0:1 1 PROTECTION_ENVIRONMENTAL:3,DURABILITY:3
+    - 310:0:1 0.1 PROTECTION_FIRE:5,DURABILITY:3,PROTECTION_EXPLOSIONS:5,PROTECTION_PROJECTILE:5 &aNecrotic_Boneplate_Mask
+    - 311:0:1 0.1 PROTECTION_FIRE:5,DURABILITY:3,PROTECTION_EXPLOSIONS:5,PROTECTION_PROJECTILE:5 &aNecrotic_Boneplate_Chest
+    - 312:0:1 0.1 PROTECTION_FIRE:5,DURABILITY:3,PROTECTION_EXPLOSIONS:5,PROTECTION_PROJECTILE:5 &aNecrotic_Boneplate_Legs
+    - 313:0:1 0.1 PROTECTION_FIRE:5,DURABILITY:3,PROTECTION_EXPLOSIONS:5,PROTECTION_PROJECTILE:5 &aNecrotic_Boneplate_Boots
+  Gnoll:
+    Type: zombiebaby
+    Health: 150
+    Showhp: true
+    Damage: 15
+    Skills:
+    - potionboss SPEED:10000:4 /150-1 1
+    - potionboss FIRE_RESISTANCE:10000:1 /150-1 1
+    - throw 10:5 =50 1
+    Drops:
+    - 41:0:1:4 0
+    - 278:0:1:0 0
+    - 265:0:10 1
+    - 266:0:4 1
+  ChickBoss:
+    Type: chicken
+    Health: 150
+    Showhp: true
+    Damage: 1
+    Skills:
+    - potionboss SPEED:10000:4 /150-1 1
+    - swarm $Drop:10 =1 1
+    Drops:
+    - exp 100
+  Drop:
+    Type: zombiebaby
+    Health: 150
+    Showhp: true
+    Damage: 1
+    Skills:
+    - potionboss SPEED:10000:4 /150-1 1
+    - potionboss INVISIBILITY:1000:1 /150-1 0
+    Drops:
+    - exp 100
+    - 54:0:1:4 0
+  Knight:
+    Type: skeleton
+    Health: 300
+    Showhp: true
+    Damage: 10
+    Skills:
+    - potionboss SPEED:10000:2 /300-1 1
+    - potionboss FIRE_RESISTANCE:10000:1 /300-1 1
+    - throw 4:2 =150 1
+    - swarm $Sword:5 =150 1
+    - dragin 8 =100 1
+    - throw 4:2 =50 1
+    - bossmsg 25:&3$player_killed_$boss =0 1
+    Drops:
+    - exp 500
+    - 306:0:1:4 0 PROTECTION_ENVIRONMENTAL:1
+    - 307:0:1:3 0 PROTECTION_ENVIRONMENTAL:1
+    - 308:0:1:2 0 PROTECTION_ENVIRONMENTAL:1
+    - 309:0:1:1 0 PROTECTION_ENVIRONMENTAL:1
+    - 267:0:1 1 DAMAGE_ALL:3
+    - 264:0:15 1
+  Sword:
+    Type: zombiebaby
+    Health: 100
+    Showhp: true
+    Damage: 10
+    Skills:
+    - potionboss SPEED:10000:2 /100-1 1
+    - potionboss FIRE_RESISTANCE:10000:1 /100-1 1
+    - potionboss INVISIBILITY:1000:1 /100-1 1
+    Drops:
+    - exp 50
+  Wraith:
+    Type: witherskeleton
+    Health: 500
+    Showhp: true
+    Damage: 3
+    Showtitle: true
+    Skin: http://minecraft2000.ru/MineCraft/bosses/
+    Skills:
+    - potionboss FIRE_RESISTANCE:10000:1 >0 1
+    - teleport teleport >200 0.5
+    - teleport teleport /200-101 0.7
+    - teleport teleport <100 0.9
+    - swarm zombie:5 /500-101 0.1
+    - swarm zombie:10 =100 1
+    - swarm zombie:5 /99-0 0.2
+    Drops:
+    - exp 30
+    - 341:0:1 0.5
+    - 261:0:1:0 0 ARROW_INFINITE:1,ARROW_DAMAGE:5,ARROW_KNOCKBACK:2
+  Grower:
+    Type: zombiebaby
+    Health: 100
+    Damage: 8
+    Skills:
+    - swarm $GrowUP2:1 =0 1
+    - potionboss SPEED:10000:3 /100-1 1
+    - throw 20:1.4 >0 0.3
+    - lightning 10:3 >0 0.04
+    - teleport teleport >0 0.2
+    Drops:
+    - 298:0:1:4 0 PROTECTION_ENVIRONMENTAL:1
+    - 299:0:1:3 0 PROTECTION_ENVIRONMENTAL:1
+    - 300:0:1:2 0 PROTECTION_ENVIRONMENTAL:1
+    - 301:0:1:1 0 PROTECTION_ENVIRONMENTAL:1
+  GrowUP2:
+    Type: zombie
+    Health: 200
+    Damage: 10
+    Skills:
+    - swarm $GrowUP3:1 =0 1
+    - potionboss SPEED:10000:4 /200-1 1
+    - potion 15:SLOW:30:10 =200 1
+    - potion 15:WEAKNESS:10:2 =200 1
+    - potion 15:BLINDNESS:10:1 =200 1
+    - bossmsg 20:&4Я_вырос_я_стал_сильнее_!!! =200 1
+    - throw 20:1.8 >0 0.5
+    - lightning 10:3 >0 0.04
+    - teleport teleport >0 0.4
+    Drops:
+    - 298:0:1:4 0 PROTECTION_ENVIRONMENTAL:2
+    - 299:0:1:3 0 PROTECTION_ENVIRONMENTAL:2
+    - 300:0:1:2 0 PROTECTION_ENVIRONMENTAL:2
+    - 301:0:1:1 0 PROTECTION_ENVIRONMENTAL:2
+  GrowUP3:
+    Type: zombievillager
+    Health: 400
+    Damage: 14
+    Skills:
+    - potionboss SPEED:10000:6 /400-1 1
+    - potion 15:SLOW:30:10 =400 1
+    - potion 15:WEAKNESS:20:2 =400 1
+    - potion 15:BLINDNESS:20:1 =400 1
+    - bossmsg 20:&4Я_постарел_!!! =400 1
+    - bossmsg 25:&3$player_killed_$boss =0 1
+    - throw 20:2 >0 0.7
+    - lightning 10:3 >0 0.04
+    - teleport teleport >0 0.8
+    Drops:
+    - exp 50
+    - 298:0:1:4 0 PROTECTION_ENVIRONMENTAL:3
+    - 299:0:1:3 0 PROTECTION_ENVIRONMENTAL:3
+    - 300:0:1:2 0 PROTECTION_ENVIRONMENTAL:3
+    - 301:0:1:1 0 PROTECTION_ENVIRONMENTAL:3
+  Брат_Азерон:
+    Type: zombievillager
+    Health: 800
+    Showhp: true
+    Damage: 10
+    Skills:
+    - bossmsg 20:&4$boss_&3Я не отдам свой трон! =800 1
+    - potionboss SPEED:10000:2 /800-1 1
+    - potionboss FIRE_RESISTANCE:10000:1 /800-1 1
+    - potion 20:SLOW:20:10 =600 1
+    - potion 20:POISON:10:10 =600 1
+    - potion 20:SLOW:5:10 <300 0.4
+    - bossmsg 20:&4$boss_&3Братья на помощь!! =300 1
+    - throw 20:20 =300 1
+    - lightning 20:10 =300 1
+    - dragin 20 = 250 1
+    - swarm $Брат_Михаэль:1 =300 1
+    - swarm $Брат_Сартанис:1 =300 1
+    - potion 20:POISON:10:10 =100 1
+    - throw 20:5 =50 1
+    - bossmsg 20:&4$boss_&3Братья, я не удержал трон! =1 1
+    - bossmsg 25:&3$player_killed_$boss =0 1
+    Drops:
+    - 302:0:1:4 0 PROTECTION_ENVIRONMENTAL:3
+    - 303:0:1:3 0 PROTECTION_ENVIRONMENTAL:3
+    - 304:0:1:2 0 PROTECTION_ENVIRONMENTAL:3
+    - 305:0:1:1 0 PROTECTION_ENVIRONMENTAL:3
+    - 276:0:1:0 0 DAMAGE_ALL:5,FIRE_ASPECT:4
+#    - 322:1:3 1
+#    - 276:0:1 0 DAMAGE_ALL:4,FIRE_ASPECT:1
+#    - 313:0:1 0.2 PROTECTION_ENVIRONMENTAL:3,DURABILITY:3 $&9White_Tiger_Boots
+  Брат_Михаэль:
+    Type: skeleton
+    Health: 300
+    Showhp: true
+    Damage: 10
+    Skills:
+    - bossmsg 20:&4$boss_&3Я пришел брат мой! =300 1
+    - potionboss SPEED:10000:2 /300-1 1
+    - potionboss FIRE_RESISTANCE:10000:1 /300-1 1
+    - potion 20:BLINDNESS:10:1 =150 1
+    - potion 20:WEAKNESS:10:2 =150 1
+    - bossmsg 20:&4$boss_&3Я еще вернусь!!!!! =1 1
+    - bossmsg 25:&3$player_killed_$boss =0 1
+    Drops:
+    - 302:0:1:4 0 PROTECTION_ENVIRONMENTAL:3
+    - 303:0:1:3 0 PROTECTION_ENVIRONMENTAL:3
+    - 304:0:1:2 0 PROTECTION_ENVIRONMENTAL:3
+    - 305:0:1:1 0 PROTECTION_ENVIRONMENTAL:3
+    - 261:0:1:0 0 ARROW_DAMAGE:10,ARROW_KNOCKBACK:3,ARROW_FIRE:3
+#    - 262:0:128 1
+#    - 384:0:64 1
+  Брат_Сартанис:
+    Type: zombie
+    Health: 600
+    Showhp: true
+    Damage: 15
+    Skills:
+    - bossmsg 20:&4$boss_&3Вы все умрете! =600 1
+    - potionboss SPEED:10000:2 /600-1 1
+    - potionboss FIRE_RESISTANCE:10000:1 /600-1 1
+    - lightning 20:10 =400 1
+    - Teleport teleport <200 0.2
+    - lightning 20:2 <400 1
+    - bossmsg 25:&3$player_killed_$boss =0 1
+    Drops:
+    - 302:0:1:4 0 PROTECTION_ENVIRONMENTAL:3
+    - 303:0:1:3 0 PROTECTION_ENVIRONMENTAL:3
+    - 304:0:1:2 0 PROTECTION_ENVIRONMENTAL:3
+    - 305:0:1:1 0 PROTECTION_ENVIRONMENTAL:3
+    - 276:0:1:0 0 DAMAGE_ALL:5,FIRE_ASPECT:4
+#    - 364:0:256
+#    - 264:0:15 $&2Алмазы высшей пробы
+
+
+

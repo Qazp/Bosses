@@ -149,7 +149,7 @@ Bosses:
     Showhp: true
     Damage: 3
     Showtitle: true
-    Skin: http://minecraft2000.ru/MineCraft/bosses/
+    Skin: Wraith
     Skills:
     - potionboss FIRE_RESISTANCE:10000:1 >0 1
     - teleport teleport >200 0.5
@@ -223,6 +223,29 @@ Bosses:
     - swarm cavespider:20 =0 1
     - swarm zombie:20 =0 1
     - swarm pigzombie:10 =0 1
+  Metamob2:
+    Type: zombie
+    Health: 0
+    Skills:
+    - swarm cavespider:20 =0 1
+    - swarm spider:30 =0 1
+    - swarm sekeleton:30 =0 1
+    - swarm bat|blaze:15 =0 1
+  Metamob3:
+    Type: zombie
+    Health: 0
+    Skills:
+    - swarm pigzombie:20 =0 1
+    - swarm giant:5 =0 1
+    - swarm spider:20 =0 1
+    - swarm creeper:20 =0 1
+  Metamob4:
+    Type: zombie
+    Health: 0
+    Skills:
+    - swarm pigzombie:20 =0 1
+    - swarm cavespider:20 =0 1
+    - swarm bat|witch:15 =0 1
   Prizrak:
     Type: zombie
     Health: 500

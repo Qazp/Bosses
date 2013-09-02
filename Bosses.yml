@@ -271,7 +271,6 @@ Bosses:
     Showhp: true
     Damage: 20
     Skills:
-    - command say_Boss_has_1000_hp! =1000 1
     - potionboss SPEED:10000:4 /1000-1 1
     - potionboss FIRE_RESISTANCE:10000:1 /1000-1 1
     - lightning 10:5 /800-600 0.3

@@ -288,7 +288,7 @@ Bosses:
     Skills:
   	- effect fire
     - potionboss FIRE_RESISTANCE:10000:1 /1000-1 1
-  	- potionboss 5:WEAKNESS:5:2 /500-1 0.2
+  	- potionb5:WEAKNESS:5:2 /500-1 0.2
     - swarm creeper:2 =500 1
   	- swarm creeper:4 =200 1
   	- dragin 20 >0 0.1

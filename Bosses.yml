@@ -287,6 +287,7 @@ Bosses:
     Showhp: false
     Skills:
     - effect fire
+    - potionboss SPEED:10000:3 >0 1
     - potionboss FIRE_RESISTANCE:10000:1 >0 1
     - potion 5:WEAKNESS:5:2 <500 0.2
     - swarm creeper:2 =500 1

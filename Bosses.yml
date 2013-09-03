@@ -144,7 +144,7 @@ Bosses:
     - potionboss INVISIBILITY:1000:1 /100-1 1
     Drops:
     - exp 50
-  Wraith:
+  Ghost:
     Type: witherskeleton
     Health: 500
     Showhp: true
@@ -247,24 +247,6 @@ Bosses:
     - swarm pigzombie:20 =0 1
     - swarm cavespider:20 =0 1
     - swarm witch:15 =0 1
-  Prizrak:
-    Type: zombie
-    Health: 500
-    Showhp: false
-    ShowTitle: True
-    Skills:
-    - potionboss FIRE_RESISTANCE:10000:1 /500-1 1
-    - teleport teleport /500-201 0.5
-    - teleport teleport /200-101 0.7
-    - teleport teleport /100-30 0.9
-    - swarm zombie:5 /500-101 0.1
-    - swarm zombie:10 =100 1
-    - swarm zombie:5 /99-0 0.2
-    Damage: 3
-    Drops:
-    - exp 30
-    - 341:0:1 0.5
-    - 261:0:1:0 0 ARROW_INFINITE:1,ARROW_DAMAGE:5,ARROW_KNOCKBACK:2
   Warden:
     Type: irongolem
     Health: 1000
@@ -280,7 +262,7 @@ Bosses:
     - throw 3:5 =300 1
     - lightning 3:25 =100 1
     - bossmsg 25:&3$player_killed_$boss =0 1
-    - bossmsg 25:&3$Boss_has_1000_hp =1000 1
+    - bossmsg 25:&3$boss_has_1000_hp =1000 1
     Drops:
     - exp 500
     - 310:0:1:4 1 PROTECTION_ENVIRONMENTAL:2,DURABILITY:3

@@ -99,9 +99,10 @@ Bosses:
     Skills:
     - potionboss SPEED:10000:2 /150-1 1
     - swarm $Drop:6 =1 0
-    - bossmsg 60:&4Ко_ко_ко_Я_в_лесу =150 1
-    - bossmsg 60:&4Ко_ко_ко_Я_в_лесу >0 0.1
+    - bossmsg 100:&4Ко_ко_ко_Я_в_лесу =150 1
+    - bossmsg 100:&4Ко_ко_ко_Я_в_лесу >0 0.1
     Drops:
+    - 41:0:1:4 0
     - exp 50
   Drop:
     Type: zombiebaby
@@ -109,12 +110,15 @@ Bosses:
     Showhp: true
     Damage: 1
     Skills:
-    - potionboss SPEED:10000:3 /150-1 1
-    - potionboss INVISIBILITY:1000:1 /150-1 0
+    - potionboss SPEED:10000:2 /150-1 1
     Drops:
     - exp 20
     - 54:0:1:4 0
     - 265:0:1 1
+    - 306:0:1 0.05
+    - 307:0:1 0.05
+    - 308:0:1 0.05
+    - 309:0:1 0.05
   Knight:
     Type: skeleton
     Health: 300

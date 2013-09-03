@@ -299,8 +299,8 @@ Bosses:
     Damage: 14
     Drops:
     - exp 100
-    - 257:0:1 1 DURABILITY:2 $&9SmithHammer
-    - 403:0:1 0.01 $&9Foliant
+    - 257:0:1 1 DURABILITY:2 $2&9SmithHammer
+    - 403:0:1 0.01 $2&9Foliant
     - 403:0:1 0.1 DURABILITY:2
     - 403:0:1 0.06 SILK_TOUCH:1
     - 403:0:1 0.1 LOOT_BONUS_BLOCKS:2

@@ -97,7 +97,7 @@ Bosses:
     Showhp: true
     Damage: 1
     Skills:
-    - potionboss SPEED:10000:3 /150-1 1
+    - potionboss SPEED:10000:2 /150-1 1
     - swarm $Drop:6 =1 0
     - bossmsg 60:&4Ко_ко_ко_Я_в_лесу =150 1
     - bossmsg 60:&4Ко_ко_ко_Я_в_лесу >0 0.1

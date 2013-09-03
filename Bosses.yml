@@ -101,17 +101,17 @@ Bosses:
     - swarm $Drop:6 =1 0
     - bossmsg 60:&4Ко_ко_ко_Я_в_лесу =150 1
     Drops:
-    - exp 100
+    - exp 50
   Drop:
     Type: zombiebaby
     Health: 150
     Showhp: true
     Damage: 1
     Skills:
-    - potionboss SPEED:10000:4 /150-1 1
+    - potionboss SPEED:10000:3 /150-1 1
     - potionboss INVISIBILITY:1000:1 /150-1 0
     Drops:
-    - exp 100
+    - exp 20
     - 54:0:1:4 0
     - 265:0:1 1
   Knight:

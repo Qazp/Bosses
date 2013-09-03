@@ -291,8 +291,9 @@ Bosses:
     - potionboss FIRE_RESISTANCE:10000:1 >0 1
     - potion 5:WEAKNESS:5:2 <500 0.2
     - potion 50:SLOW:30:10 <300 0.2
-    - swarm creeper:2 =500 1
-    - swarm creeper:4 =200 1
+    - swarm creeper:4 =500 1
+    - swarm creeper:6 =200 1
+    - swarm creeper:2 >0 0.2
     - dragin 20 >0 0.1
     Damage: 14
     Drops:

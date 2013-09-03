@@ -103,6 +103,8 @@ Bosses:
     - bossmsg 100:&4Ко_ко_ко_Я_в_лесу >0 0.1
     Drops:
     - 41:0:1:4 0
+    - 366:0:16 1
+    - 344:0:16 1
     - exp 50
   Drop:
     Type: zombiebaby

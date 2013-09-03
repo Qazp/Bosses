@@ -97,8 +97,8 @@ Bosses:
     Showhp: true
     Damage: 1
     Skills:
-    - potionboss SPEED:10000:2 >0 1
-    - swarm $Drop:6 =1 1
+    - potionboss SPEED:10000:2 /150-1 1
+    - swarm $Drop:6 =1 0
     - bossmsg 100:&4Ко_ко_ко_Я_в_лесу =150 1
     - bossmsg 100:&4Ко_ко_ко_Я_в_лесу >0 0.1
     Drops:
@@ -110,7 +110,7 @@ Bosses:
     Showhp: true
     Damage: 1
     Skills:
-    - potionboss SPEED:10000:2 >0 1
+    - potionboss SPEED:10000:3 /150-1 1
     Drops:
     - exp 20
     - 54:0:1:4 0
@@ -159,6 +159,7 @@ Bosses:
     ShowTitle: True
     Skin: Wraith
     Skills:
+    - effect ender
     - potionboss FIRE_RESISTANCE:10000:1 >0 1
     - teleport teleport >200 0.5
     - teleport teleport /200-101 0.7

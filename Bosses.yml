@@ -299,8 +299,17 @@ Bosses:
     Damage: 14
     Drops:
     - exp 100
-    - 257:0:1 1 DURABILITY:2 $2&9SmithHammer
-    - 403:0:1 0.01 $2&9Foliant
+    - 257:0:1 1 DURABILITY:2
+    - 403:0:1 0.01
     - 403:0:1 0.1 DURABILITY:2
     - 403:0:1 0.06 SILK_TOUCH:1
     - 403:0:1 0.1 LOOT_BONUS_BLOCKS:2
+
+  test1:
+    Type: zombiebaby
+    Health: 10
+    Showhp: true
+    Damage: 10
+    Drops:
+    - 265:0:10 1 DAMAGE_ALL:3,FIRE_ASPECT:2 $&6Cool_Item
+    

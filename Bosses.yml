@@ -97,8 +97,9 @@ Bosses:
     Showhp: true
     Damage: 1
     Skills:
-    - potionboss SPEED:10000:4 /150-1 1
-    - swarm $Drop:10 =1 1
+    - potionboss SPEED:10000:3 /150-1 1
+    - swarm $Drop:6 =1 0
+    - bossmsg 60:&4Ко_ко_ко_Я_в_лесу =150 1
     Drops:
     - exp 100
   Drop:
@@ -112,6 +113,7 @@ Bosses:
     Drops:
     - exp 100
     - 54:0:1:4 0
+    - 265:0:1 1
   Knight:
     Type: skeleton
     Health: 300

@@ -287,16 +287,17 @@ Bosses:
     Showhp: false
     Skills:
     - effect fire
-    - potionboss SPEED:10000:3 >0 1
+    - potionboss SPEED:10000:6 >0 1
     - potionboss FIRE_RESISTANCE:10000:1 >0 1
     - potion 5:WEAKNESS:5:2 <500 0.2
+    - potion 50:SLOW:30:10 <300 0.2
     - swarm creeper:2 =500 1
     - swarm creeper:4 =200 1
     - dragin 20 >0 0.1
-    Damage: 10
+    Damage: 14
     Drops:
     - exp 100
-    - 257:0:1:0 0.02 DURABILITY:2 $SmithHammer
+    - 257:0:1 1 DURABILITY:2 $&9SmithHammer
     - 403:0:1 0.01 $Foliant
     - 403:0:1 0.1 DURABILITY:2
     - 403:0:1 0.06 SILK_TOUCH:1

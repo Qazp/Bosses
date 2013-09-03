@@ -291,6 +291,7 @@ Bosses:
     - potionboss FIRE_RESISTANCE:10000:1 >0 1
     - potion 5:WEAKNESS:5:2 <500 0.2
     - potion 50:SLOW:30:10 <300 0.2
+    - potion 15:BLINDNESS:10:1 0.1
     - swarm creeper:4 =500 1
     - swarm creeper:6 =200 1
     - swarm creeper:2 >0 0.2

@@ -161,6 +161,7 @@ Bosses:
     ShowTitle: True
     Skin: Wraith
     Skills:
+    - effect ender
     - potionboss FIRE_RESISTANCE:10000:1 >0 1
     - teleport teleport >200 0.5
     - teleport teleport /200-101 0.7

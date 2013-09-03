@@ -287,24 +287,24 @@ Bosses:
     Showhp: false
     Skills:
     - effect fire
-    - potionboss SPEED:10000:8 >0 1
+    - potionboss SPEED:10000:7 >0 1
     - potionboss FIRE_RESISTANCE:10000:1 >0 1
-    - potionboss WITHER:10:2 >0 0.1
-    - potion 5:WEAKNESS:5:2 <500 0.5
+    - teleport teleport /500-1 0.2
+    - dragin 15 >0 0.1
+    - potion 5:WEAKNESS:5:2 <500 0.1
     - potion 50:SLOW:30:10 <300 0.2
-    - potion 15:BLINDNESS:10:1 0.2
+    - potion 15:BLINDNESS:10:2 /1000-1 0.2
     - swarm creeper:4 =500 1
     - swarm creeper:6 =200 1
-    - swarm creeper:2 >0 0.4
-    - dragin 20 >0 0.1
+    - swarm creeper:2 >0 0.2
     Damage: 14
     Drops:
     - exp 100
-    - 257:0:1 1 DURABILITY:2
-    - 403:0:1 0.01
-    - 403:0:1 0.1 DURABILITY:2
-    - 403:0:1 0.06 SILK_TOUCH:1
-    - 403:0:1 0.1 LOOT_BONUS_BLOCKS:2
+    - 257:0:1 1 DURABILITY:2 $2&9SmithHammer
+    - 403:0:1 0.01 $2&9Foliant
+    - 403:0:1 0.3 DURABILITY:2
+    - 403:0:1 0.2 SILK_TOUCH:1
+    - 403:0:1 0.3 LOOT_BONUS_BLOCKS:2
   test1:
     Type: zombiebaby
     Health: 10
